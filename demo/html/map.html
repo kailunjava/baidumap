@@ -1,0 +1,24 @@
+﻿<!-- author zkl 百度地图驾车导航-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fWCBnYer37tZAaqbODvRnNTTSv83SADz"></script>
+    <script type="text/javascript" src="../common/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../common/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/map.css">
+    <script type="text/javascript" src="../js/map.js"></script>
+    <title>驾车导航的结果面板</title>
+</head>
+
+<body>
+    <div id="l-map"></div>
+    <div id="r-result"></div>
+    <div class="left-top">
+        <input type="text" class="form-control" id="address" placeholder="地址" style="border-radius: 0;width: 140%;">
+        <button type="button" class="btn btn-primary btn1" onclick="search()">查询</button>
+        <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+﻿body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "微软雅黑";
+}
+
+/*滚动条优化开始*/
+/*滚动条宽度*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+/*//滚动轨道背景颜色*/
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+/*//滚动条颜色以及设置圆角*/
+
+::-webkit-scrollbar-thumb {
+    background-color: #ABAFB1;
+    border-radius: 10px;
+}
+
+/*//鼠标移动到滚动条时候的颜色*/
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6C6E6F;
+}
+
+/*//拖动滚动条时候的颜色*/
+::-webkit-scrollbar-thumb:active {
+    background-color: #6C6E6F;
+}
+/*滚动条优化结束*/
+#l-map {
+    height: 100%;
+    width: 100%;
+}
+
+#r-result {
+    width: 295px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    box-shadow: 0px 0px 5px 0px #cac9c9;
+}
+
+#r-result table {}
+
+#r-result td {
+    padding: 5px 10px !important;
+}
+
+#r-result h1 {
+    font-size: 15px !important;
+    font-family: Microsoft YaHei !important;
+    font-weight: 400 !important;
+    margin-left: 3% !important;
+}
+.left-top{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    box-shadow: 0px 0px 5px 0px #cac9c9;
+}
+.navtrans-view a {
+    display: none;
+}
+
+.btn1 {
+    color: #fff !important;
+    background-color: #3385ff !important;
+    border-color: #3385ff !important;
+    position: absolute;
+    top: 0;
+    left: 250px;
+    border-radius: 0!important;
+}
+
+.btn1:hover {
+    color: #fff !important;
+    background-color: #2c73dc !important;
+    border-color: #2c73dc !important;
+}
+
+.navtrans-res {
+
+    max-height: 500px;
+    overflow-y: auto;
+}
